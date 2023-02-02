@@ -3,7 +3,9 @@ const App = () => {
   const Header = (props) => {
     return (
       <div>
-        {props.course}
+        <h1>
+          {props.course}
+        </h1>
       </div>
     )
   }
